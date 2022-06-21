@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300&display=swap');
+
+body {
+    font-family: "Roboto";
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.header,
+.hero,
+.footer {
+    background: #1F2934;
+    padding: 24px 64px;
+}
+
+.information,
+.testimonial,
+.cta {
+    padding: 24px 64px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-card-container {
+    display: flex;
+    gap: 32px;
+}
+
+.information-card {
+    width: 100px;
+
+}
+
+.information-card-image {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.information-card-caption {
+    text-align: center;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-secondary-text {
+    color: #E5E7EB;
+}
+
+.information {
+    background: white;
+}
+
+.testimonial {
+    background: #E5E7EB;
+    color: #1F2937;
+    padding: 100px 150px;
+}
+
+.testimonial-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.testimonial-name {
+    text-align: right;
+    font-weight: bold;
+}
+
+.cta {
+    background: white;
+    padding: 50px 100px;
+}
+
+.cta-inner {
+    background: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 48px;
+    border-radius: 16px;
+}
+
+.cta-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.cta-button {
+    border: 2px solid white;
+    border-radius: 8px;
+    background: #3882F6;
+    color: white;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    padding: 8px 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    ;
+    border-radius: 8px;
+    border: none;
+    width: 125px;
+}
+
+.footer {
+    color: #F9FAF8;
+    text-align: center;
+}
